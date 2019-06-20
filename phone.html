@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<title>Phone Directory</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href ="assets/css/phone.css">
+</head>
+<body>
+<nav class="navbar navbar-light bg-dark justify-content-center">
+  <span class="navbar-brand mb-0 h1 text-white">PHONE DIRECTORY</span>
+</nav>
+<br>
+<div id="container">
+<form class="form">
+	<input type="text" id="inputName" placeholder="Ex : Smith">
+    <input type="text" id="inputNumber" placeholder="Ex : 99999999">
+    <a role="button" class="btn btn-success" id="add" href ="#">ADD</a>
+</form>
+<br>
+<table id="table" cellspacing="10">
+	<thead>
+	<tr><td>Name</td>
+	<td>Phone Number</td>
+	<td>Delete</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+<script type="text/javascript" src="assets/js/lib/jquery-3.4.1.slim.min.js"></script>
+<script type="text/javascript" src="assets/js/phone.js"></script>
+</body>
+</html>
